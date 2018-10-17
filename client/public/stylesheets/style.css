@@ -1,0 +1,204 @@
+/* form.signup,
+form.login {
+  margin-top: 50px;
+  color: darkorchid;
+}
+h2 {
+  font-weight: bold;
+  color: darkorchid;
+  text-decoration: underline;
+
+}
+.container {
+ background-color: lightgray;
+ width: 600px;
+ border: groove;
+ 
+
+} */
+.hidden {
+  visibility: hidden;
+}
+
+body {
+  background-image: url('../assets/images/four-third.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-color: #ff0000; */
+  background-color: black
+}
+
+nav {
+  margin-bottom: 2em;
+  background-color: #070707;
+  border-bottom: 2px solid rgb(27, 10, 10);
+}
+
+.helloUser {
+  text-align: center;
+  color: white;
+}
+
+form {
+  margin-top: 2em;
+}
+
+label,
+h2,
+h3,
+p {
+  color: rgb(211, 211, 211);
+}
+
+.container {
+  /* background-image: url('Backdrop.png'); */
+  background-size: 100%;
+  background-color: #161616;
+  border-radius: 15px;
+  border: 2px solid rgb(14, 14, 14);
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  padding: .5em 1em;
+  float: left;
+}
+
+.title {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.title h1 {
+  font-size: 4rem;
+}
+
+.logout {
+  float: right;
+  clear: both;
+}
+
+.logout {
+  border-radius: 5px;
+  border: 1px solid rgb(43, 43, 43);
+  background: rgb(39, 39, 39);
+  color: rgb(206, 206, 206);
+  margin: 0;
+  padding: .5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logout:hover {
+  border-radius: 5px;
+  border: 1px solid rgb(58, 58, 58);
+  background: rgb(39, 39, 39);
+  color: rgb(253, 253, 253);
+  ;
+  margin: 0;
+  padding: .5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+  width: 320px;
+  margin: auto;
+}
+
+#searchBar {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 2px .5rem;
+  font-size: 1.2em;
+}
+
+#searchBtn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color: rgb(17, 72, 255);
+  padding: 2px .5rem;
+  background: rgb(17, 72, 255);
+  color: white;
+  font-size: 1.2em;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+
+/* Links */
+.Navlink {
+  font-weight: bold;
+}
+
+.Navlink:link {
+  color: rgb(184, 184, 184);
+}
+
+/* visited link */
+.Navlink:visited {
+  color: rgb(184, 184, 184);
+}
+
+/* mouse over link */
+.Navlink:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* selected link */
+.Navlink:active {
+  color: rgb(184, 184, 184);
+}
+
+.movietitle {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movieimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.moviebtn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em; 
+  margin-bottom: 2em; 
+  float: none;
+}
+
+
+/* Tying to make a sticky footer */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}

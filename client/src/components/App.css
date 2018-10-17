@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 30px;
+}
+
+.nav-logo { 
+  /*animation: App-logo-spin infinite 20s linear; */
+  height: 30px;
+}
+
+
+
+.App-header {
+  /* background-color: #222; */
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+/* .navbar {
+  /* font-family: 'Bangers', cursive; */
+  /* font-family: 'Aladin', cursive;
+  font-size: 34px;
+} */ 
+
+h1 {
+  color: white;
+  font-family: 'Aladin', cursive;
+  font-size: 44px;
+  text-align: center;
+  /* text-shadow: 3px 2px grey; */
+}
+
+/* a,
+p {
+  font-size: 20px;
+} */
+
+/* .App-title {
+  font-size: 1.5em;
+} */
+
+.container {
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+h2.helloUser {
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.jumbotron {
+  background-color: slategray;
+  color: white;
+  font-family: 'Aladin', cursive;
+}
+
+/* .navbar-brand {
+  font-size: 40px;
+  text-shadow: 3px 2px grey;
+} */
+
+.App-intro {
+  /* font-size: large; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.intro {
+  background: rgb(70, 70, 167);
+  margin-top: 100px;
+  margin-left: 525px;
+  float: right;
+  width: 500px;
+  height: 125px;
+  text-align: center;
+  position: absolute;
+  /* font-style: georgia; */
+  /* font-family: 'Bangers', cursive; */
+  font-family: 'Aladin', cursive;
+  font-size: 24px;
+  border-style: groove;
+  border-width: 8px;
+}
+
+/* button {
+  float: right;
+  clear: both;
+} */
